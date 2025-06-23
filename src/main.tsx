@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home/index.tsx'
 import Login from './pages/login/index.tsx'
 import App from './App.tsx'
-import ErrorPage from './compenents/errorPage.tsx'
+import ErrorPage from './compenents/error/errorPage.tsx'
 
 const router = createBrowserRouter([
     {
